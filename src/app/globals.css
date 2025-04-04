@@ -92,3 +92,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+body{
+  background-color: #E5E5E5;
+}
+
+.hero-image{
+  background: url('/hero-image2.png') no-repeat ;
+  background-size: cover;
+
+}
+
+@media (min-width:768px) {
+  .hero-image{
+    background: url('/hero-image.png') no-repeat ;
+    background-size: cover;
+  }
+}
